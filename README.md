@@ -50,7 +50,7 @@
 <li> Benzer mekaniklere sahip oyunlar incelendi. </li>
 <li> Asset'ler bulundu ve incelendi. </li>
 <li> Oyunun sanat tarzı low poly olarak belirlendi. </li>
-<li> Oyun ile ilgili ayrıntılı detaylara <a href="https://miro.com/welcomeonboard/VFhGRDNqRWxLVlMwMWdza0swME9Jdkp1ZEtrRkNLTnA1MUgyV0k5bDg2YUhyNDlIMGVqdEdZWWg0cGdPb2pCMnwzNDU4NzY0NTc2NTg4ODQ5MjgzfDI=?share_link_id=613011028903"> Miro'dan </a> ulaşabilirsiniz.
+<li> Oyun ile ilgili ayrıntılı detaylara <a href="https://miro.com/app/board/uXjVK74qQnE=/?share_link_id=329082173242"> Miro'dan </a> ulaşabilirsiniz.
 <li> </li> 
 
  <h2>
