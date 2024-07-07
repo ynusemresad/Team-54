@@ -47,8 +47,14 @@
 <li> </li>
 <li> </li>
 <li> </li>
+<li> </li> 
+<h3>Sprint Review</h3>
 <li> </li>
-
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li> 
 
  <h2>
   SPRINT <span>&#8545;</span>
@@ -58,6 +64,13 @@
 <li> </li>
 <li> </li>
 <li> </li>
+<h3>Sprint Review</h3>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li> 
 
   <h2>
   SPRINT <span>&#8546;</span>
@@ -70,6 +83,13 @@
 <li> </li>
 <li> </li>
 <li> </li>
+<h3>Sprint Review</h3>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li> 
 
  
 
