@@ -50,8 +50,9 @@
 <li> Benzer mekaniklere sahip oyunlar incelendi. </li>
 <li> Asset'ler bulundu ve incelendi. </li>
 <li> Oyunun sanat tarzı low poly olarak belirlendi. </li>
-<li> Oyun ile ilgili ayrıntılı detaylara <a href="https://miro.com/app/board/uXjVK74qQnE=/?share_link_id=329082173242"> Miro'dan </a> ulaşabilirsiniz.
-<li> </li> 
+<li> Oyun ile ilgili ayrıntılı detaylara <a href="https://miro.com/app/board/uXjVK74qQnE=/?share_link_id=329082173242"> Miro'dan </a> ulaşabilirsiniz. <br> </li>
+
+![miro](https://github.com/ynusemresad/Team-54/assets/113181036/66325bfd-147f-46eb-9721-21c8ad7114ea)
 
  <h2>
   SPRINT <span>&#8545;</span>
