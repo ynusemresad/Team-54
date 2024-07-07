@@ -17,15 +17,64 @@
 </ul>
 <ul>
 <h2> Product Backlog URL </h2>
-<li> [Team 54 Trello]([url](https://trello.com/b/jEnF54jD/bootcamp24))
+
+ <li> <a href="https://trello.com/b/jEnF54jD/team54">Trello</a>
 </li>
-  <ul>
+ 
 <h2> Oyun Açıklaması </h2>
 <li> Project Dissociative, 4-6 kişilik social deduction oyunudur. Kişilik bölünmesi yaşayan karakterimizin bir kişiliği imposter'dır ve yapılacak görevleri sabote etmeye çalışır. </br>
   </li>
   </ul>
   <ul>
 <h2> Oyun Özellikleri </h2>
-    
+   <li> Multiplayer </li>
+    <li> In-App Purchases (Costume) </li>
   </ul>
+ <h2>
+  Hedef Kitle
+ </h2>
+ <ul>
+<li> Sosyal çıkarım oyunlarını sevenler </li>
+<li> 13+ </li>
+<li> Rol yapma oyunlarını sevenler </li>
+<li> İçerik Üreticileri (Streamers/YouTubers) </li>
+ </ul>
+ <h2>
+  SPRINT <span>&#8544;</span>
+ </h2>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+
+
+ <h2>
+  SPRINT <span>&#8545;</span>
+ </h2>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+
+  <h2>
+  SPRINT <span>&#8546;</span>
+ </h2>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+
+ 
+
+
+  
+ 
+
 
