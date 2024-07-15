@@ -36,6 +36,7 @@ public class ManagementCode : MonoBehaviourPunCallbacks
         Debug.Log("Odaya girildi!");
 
         GameObject nesne = PhotonNetwork.Instantiate("Gamer", Vector3.zero, Quaternion.identity, 0, null);
+        
     }
 
     public override void OnLeftRoom()
