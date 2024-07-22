@@ -90,20 +90,35 @@
  <h2>
   SPRINT <span>&#8545;</span>
  </h2>
+
 <li>  Çok oyunculu sistemin server tarafını hazır hale getirmek. </li>
 <li> Tasarım dilini oturtmak, ona uygun assetler bulmak / üretmek. </li>
 <li> Gerekli assetlerin taslağını oluşturmak. </li>
 <li> Ana karakterin diğer kişiliklerini belirlemek. </li>
 <li> Sprint içinde tamamlanması tahmin edilen puan 100'dür. </li>
 <li> Daily Scrum: Daily Scrum toplantıları Whatsapp ve Discord üzerinden gerçekleştirilmişitr. Yazılım ve tasarım ekibi ile ayrı ayrı toplantılar yapılıp, eksik olan ve tamamlanması gereken konular konuşulmuştur. </li>
+<li> Sprint 2 Board Screenshot </li>
+
+![Screenshot 2024-07-22 231421](https://github.com/user-attachments/assets/edd637c8-2eb9-4ec0-87bc-86ba5c9fae36)
+
+<li> Ürün Durumu </li>
+
+![WhatsApp Image 2024-07-22 at 22 57 31 (1)](https://github.com/user-attachments/assets/761268fa-ea8f-4ae8-ac1e-ab54837be797)
+![WhatsApp Image 2024-07-22 at 22 57 31](https://github.com/user-attachments/assets/31e267c9-d465-4def-a8b1-2a194a46386c)
+![WhatsApp Image 2024-07-22 at 22 57 30 (1)](https://github.com/user-attachments/assets/dc0e6c9d-0d4a-4f0d-b1dc-663ea5e4983c)
+![WhatsApp Image 2024-07-22 at 22 57 30](https://github.com/user-attachments/assets/470ed1ec-6046-467d-923b-6a85159cb525)
+
+
 <h3>Sprint Review</h3>
 <li> Sprint 2'nin sonunda developer ve design takımları ayrı ayrı toplanmıştır. Geilştirme tarafında çok oyunculu sistem hazır hale getirilmiştir </li>
+<li> Sprint Review katılımcıları: Yunus Emre Sadıkoğlu, Yağmur Başoğlu, Yağız Emir Tataroğlu, Zeynep Gürcan, Zeynep Sağlık. </li>
+<h3> Sprint Retrospective</h3>
+<li> Sprint 2 için alınan puan 100'dür. </li>
 <li> Çoklu oyunculu sistemin server tarafı hazır hale getirildi. </li>
 <li> Tasarım diline uygun asset ve karakterler bulundu. </li>
 <li> Gerekli assetlerin taslağı oluşturuluyor. </li>
-<li> Sprint Review katılımcıları: </li>
-<li> </li>
-<li> </li> 
+<li> Oyunun detaylarına <a href="https://miro.com/app/board/uXjVK74qQnE=/"> Miro'dan </a> ulaşabilirsiniz.</li>
+
 
   <h2>
   SPRINT <span>&#8546;</span>
