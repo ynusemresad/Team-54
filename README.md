@@ -90,16 +90,18 @@
  <h2>
   SPRINT <span>&#8545;</span>
  </h2>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
+<li>  Çok oyunculu sistemin server tarafını hazır hale getirmek. </li>
+<li> Tasarım dilini oturtmak, ona uygun assetler bulmak / üretmek. </li>
+<li> Gerekli assetlerin taslağını oluşturmak. </li>
+<li> Ana karakterin diğer kişiliklerini belirlemek. </li>
+<li> Sprint içinde tamamlanması tahmin edilen puan 100'dür. </li>
+<li> Daily Scrum: Daily Scrum toplantıları Whatsapp ve Discord üzerinden gerçekleştirilmişitr. Yazılım ve tasarım ekibi ile ayrı ayrı toplantılar yapılıp, eksik olan ve tamamlanması gereken konular konuşulmuştur. </li>
 <h3>Sprint Review</h3>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
+<li> Sprint 2'nin sonunda developer ve design takımları ayrı ayrı toplanmıştır. Geilştirme tarafında çok oyunculu sistem hazır hale getirilmiştir </li>
+<li> Çoklu oyunculu sistemin server tarafı hazır hale getirildi. </li>
+<li> Tasarım diline uygun asset ve karakterler bulundu. </li>
+<li> Gerekli assetlerin taslağı oluşturuluyor. </li>
+<li> Sprint Review katılımcıları: </li>
 <li> </li>
 <li> </li> 
 
