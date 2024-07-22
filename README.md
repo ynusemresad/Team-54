@@ -76,7 +76,7 @@
 <li> Benzer mekaniklere sahip oyunlar incelendi. </li>
 <li> Asset'ler bulundu ve incelendi. </li>
 <li> Oyunun sanat tarzı low poly olarak belirlendi. </li>
-<li> Sprint Review Katılımcıları: Yunus Emre Sadıkoğlu, Yağız Emir Tataroğlu, Zeynep Gürcan, Zeynep Sağlık. </li> 
+<li> Sprint Review Katılımcıları: Yunus Emre Sadıkoğlu, Yağız Emir Tataroğlu, Zehra Gürcan, Zeynep Sağlık. </li> 
 <li> Oyun ile ilgili ayrıntılı detaylara <a href="https://miro.com/app/board/uXjVK74qQnE=/?share_link_id=329082173242"> Miro'dan </a> ulaşabilirsiniz. <br> </li>
 
 ![miro](https://github.com/ynusemresad/Team-54/assets/113181036/66325bfd-147f-46eb-9721-21c8ad7114ea)
@@ -111,7 +111,7 @@
 
 <h3>Sprint Review</h3>
 <li> Sprint 2'nin sonunda developer ve design takımları ayrı ayrı toplanmıştır. Geilştirme tarafında çok oyunculu sistem hazır hale getirilmiştir </li>
-<li> Sprint Review katılımcıları: Yunus Emre Sadıkoğlu, Yağmur Başoğlu, Yağız Emir Tataroğlu, Zeynep Gürcan, Zeynep Sağlık. </li>
+<li> Sprint Review katılımcıları: Yunus Emre Sadıkoğlu, Yağmur Başoğlu, Yağız Emir Tataroğlu, Zehra Gürcan, Zeynep Sağlık. </li>
 <h3> Sprint Retrospective</h3>
 <li> Sprint 2 için alınan puan 100'dür. </li>
 <li> Çoklu oyunculu sistemin server tarafı hazır hale getirildi. </li>
