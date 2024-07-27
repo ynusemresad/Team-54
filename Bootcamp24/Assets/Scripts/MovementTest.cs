@@ -5,17 +5,20 @@ using Photon.Pun;
 using Photon.Realtime;
 public class MovementTest : MonoBehaviourPunCallbacks
 {
+    //Not : SprintTime sýfýrlandýðýnda en az 20 olana kadar oyuncu tekrar koþamaz.
+
     PhotonView pw;
 
     public GameObject cube;
-    public float moveSpeed;
+    public float moveSpeed; //hareket hýzý
 
 
     public Rigidbody rb;
-    public float zipla;
-    public bool ziplamaActive;
-    float mv;
 
+    public bool canRun = true; //koþmasý için izin
+    float sprintTime = 100; //stamina süresi
+    public float sprintFloors; //sprintTime'in artma ve azalma katsayýsý
+    public bool isRunning = false; //koþup koþmadýðýný kontrol ediyor
 
     public float minXRot;
     public float maxXRot;
@@ -23,30 +26,49 @@ public class MovementTest : MonoBehaviourPunCallbacks
     private float curXRot;
     public float rotateSpeed;
 
-    private float curZoom;
+    
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-
+        sprintTime = 100;
         pw = GetComponent<PhotonView>();
+        
 
         if (pw.IsMine == true)
         {
             GetComponent<Renderer>().material.color = Color.green;
-            //GameObject cam = PhotonNetwork.Instantiate("Camera", new Vector3(2.34f, 1.43f, -0.66f), new Quaternion(-0.08f, 0.73f, -0.09f, -0.66f), 0, null); 
+            
             
         }
     }
 
-    // Update is called once per frame
+
     void Update()
     {
-
+        //serverda sadece bizde olmasý istenilen deðiþiklikler bu if'in içinde yazýlýr
         if (pw.IsMine == true)
         {
+            //sprintTime'ý 100 ile 0 arasýnda tutmak için
+            sprintTime = Mathf.Clamp(sprintTime, 0.0f, 100.0f);
+
+            //hareket fonkisyonunu çaðýrýr
             move();
-            
+
+            //deðerleri kontrol etmek için console'da yazdýrýr
+            Debug.Log("sprint time : " + sprintTime + " canRun : " + canRun + " isRunning :" + isRunning);
+
+            //sprintTime'in artmasý ve kontrolü için
+            if (isRunning == false)
+            {
+                sprintTime += sprintFloors * Time.deltaTime;
+
+                if (sprintTime >= 20)
+                {
+                    canRun = true;
+                }
+            }
+
         }
 
     }
@@ -54,6 +76,7 @@ public class MovementTest : MonoBehaviourPunCallbacks
     
     void move()
     {
+        //Hareket kodu
         float moveX = Input.GetAxis("Vertical");
         float moveZ = Input.GetAxis("Horizontal");
 
@@ -72,7 +95,7 @@ public class MovementTest : MonoBehaviourPunCallbacks
 
         transform.position += dir;
 
-
+        //Kamera yönü kodu
         float x = Input.GetAxis("Mouse X");
         float y = Input.GetAxis("Mouse Y");
         if (x != 0 || y != 0)
@@ -83,5 +106,33 @@ public class MovementTest : MonoBehaviourPunCallbacks
 
             transform.eulerAngles = new Vector3(0.0f, transform.eulerAngles.y + (x * rotateSpeed), 0.0f);
         }
+
+        //Koþma Kodu
+        
+        if (moveX != 0 || moveZ != 0)
+        {
+            if(Input.GetKey(KeyCode.LeftShift) && canRun == true)
+            {
+                moveSpeed = 15;
+                sprintTime -= sprintFloors * Time.deltaTime;
+
+                isRunning = true;
+
+                if(sprintTime <= 0)
+                {
+                    canRun = false;
+                }
+                
+            }
+
+            if(Input.GetKeyUp(KeyCode.LeftShift) || canRun == false) 
+            { 
+                moveSpeed = 10;
+                isRunning = false;
+            }
+
+        }
     }
+
+    
 }
