@@ -12,6 +12,7 @@ public class MovementTest : MonoBehaviourPunCallbacks
     public GameObject cube;
     public float moveSpeed; //hareket hýzý
 
+    public Camera cam;
 
     public Rigidbody rb;
 
@@ -46,6 +47,7 @@ public class MovementTest : MonoBehaviourPunCallbacks
 
     void Update()
     {
+        camController();
         //serverda sadece bizde olmasý istenilen deðiþiklikler bu if'in içinde yazýlýr
         if (pw.IsMine == true)
         {
@@ -73,7 +75,13 @@ public class MovementTest : MonoBehaviourPunCallbacks
 
     }
 
-    
+    void camController()
+    {
+        if (pw.IsMine == false)
+        {
+            cam.enabled = false;
+        }
+    }
     void move()
     {
         //Hareket kodu

@@ -287,6 +287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cube: {fileID: 3506531892134040835}
   moveSpeed: 10
+  cam: {fileID: 7378889778742793680}
   rb: {fileID: 2987149324721229195}
   canRun: 1
   sprintFloors: 20
