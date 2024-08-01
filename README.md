@@ -8,7 +8,7 @@
 <li> Yunus Emre Sadıkoğlu - Scrum Master </li>
 <li> Yağmur Başoğlu - Developer </li>
 <li> Yağız Emir Tataroğlu - Product Owner </li> 
-<li> Zehra Gürcan - Developer </li>
+<li> Zehra Gürcan Değiştirdim- Developer </li>
 <li> Zeynep Sağlık - Game Artist </li>
 </ul>
 <ul>
