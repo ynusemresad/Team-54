@@ -1,10 +1,10 @@
-ï»¿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Realtime;
 using Photon.Pun;
 
-public class ManagementCode : MonoBehaviourPunCallbacks
+public class Management : MonoBehaviourPunCallbacks
 {
 
     void Start()
@@ -34,18 +34,17 @@ public class ManagementCode : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         Debug.Log("Odaya girildi!");
-
         GameObject nesne = PhotonNetwork.Instantiate("Gamer", Vector3.zero, Quaternion.identity, 0, null);
     }
 
     public override void OnLeftRoom()
     {
-        Debug.Log("Odadan Ã§Ä±kÄ±ldÄ±!");
+        Debug.Log("Odadan çýkýldý!");
     }
 
     public override void OnLeftLobby()
     {
-        Debug.Log("Lobby'den Ã§Ä±kÄ±ldÄ±!");
+        Debug.Log("Lobby'den çýkýldý!");
     }
 
     public override void OnJoinRoomFailed(short returnCode, string message)
@@ -60,8 +59,6 @@ public class ManagementCode : MonoBehaviourPunCallbacks
 
     public override void OnCreateRoomFailed(short returnCode, string message)
     {
-        Debug.Log("Hata : Oda oluÅŸturulamadÄ±!");
+        Debug.Log("Hata : Oda oluþturulamadý!");
     }
-
-
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
-public class MovementTest : MonoBehaviourPunCallbacks
+public class Movement : MonoBehaviourPunCallbacks
 {
     PhotonView pw;
 
@@ -35,7 +35,7 @@ public class MovementTest : MonoBehaviourPunCallbacks
         {
             GetComponent<Renderer>().material.color = Color.green;
             //GameObject cam = PhotonNetwork.Instantiate("Camera", new Vector3(2.34f, 1.43f, -0.66f), new Quaternion(-0.08f, 0.73f, -0.09f, -0.66f), 0, null); 
-            
+
         }
     }
 
@@ -46,12 +46,12 @@ public class MovementTest : MonoBehaviourPunCallbacks
         if (pw.IsMine == true)
         {
             move();
-            
+
         }
 
     }
 
-    
+
     void move()
     {
         float moveX = Input.GetAxis("Vertical");

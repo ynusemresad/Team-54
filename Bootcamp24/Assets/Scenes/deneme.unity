@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 847985325}
   - component: {fileID: 847985324}
   - component: {fileID: 847985322}
-  - component: {fileID: 847985328}
+  - component: {fileID: 847985329}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Player
@@ -348,7 +348,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &847985328
+--- !u!114 &847985329
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -357,14 +357,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 847985321}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 475d9c38c5b05324d8b63c0be7b87476, type: 3}
+  m_Script: {fileID: 11500000, guid: 7dd7b2f781056254887ff1b9121eac65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cube: {fileID: 847985321}
-  moveSpeed: 0
-  rb: {fileID: 0}
-  zipla: 0
-  ziplamaActive: 0
+  moveSpeed: 3
+  rb: {fileID: 847985322}
+  zipla: 1
+  ziplamaActive: 1
   minXRot: 0
   maxXRot: 0
   rotateSpeed: 0
@@ -594,7 +594,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1620715125}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b945549a6e531043ae51a16ed9b8db8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b752ee54f5918f44b42182a0ef9cc76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1620715127
