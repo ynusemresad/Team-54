@@ -123,12 +123,12 @@
   <h2>
   SPRINT <span>&#8546;</span>
  </h2>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
+<li> Etkileşim sisteminni yapılması.</li>
+<li> Level Design'ın yapılması. </li>
+<li> Game Over ekranının yapılması. </li>
+<li> Main Menu ve menü ayarlarının yapılması. </li>
+<li> Online katılım için lobi sistemi. (Oda kurma, odaya katılma) </li>
+<li>  </li>
 <li> </li>
 <li> </li>
 <h3>Sprint Review</h3>
